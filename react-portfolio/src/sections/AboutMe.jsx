@@ -1,15 +1,23 @@
 import React from 'react';
+// import myPhoto from '../assets/my_photo.jpg'; 
 
 const AboutMe = () => {
     return (
-      <section className="bg-gray-100 p-8">
-        <h2 className="text-3xl font-bold mb-4">About Me</h2>
-        <p className="text-gray-700">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed
-          fringilla nisl in ligula fermentum, at tristique odio accumsan.
-        </p>
-      </section>
-    );
-  };
+        <section>
+          <h2>About Me</h2>
+          <div className="flex items-center space-x-4">
+            <img src={} alt="Avatar" className="w-20 h-20 rounded-full" />
+            <div>
+              <p>
+                Hi, I'm Zechiel. I am a passionate web developer with experience in creating
+                responsive and dynamic web applications. My skills include React, JavaScript, HTML, CSS,
+                and more. I enjoy solving problems and building innovative solutions.
+              </p>
+            </div>
+          </div>
+        </section>
+      );
+    };
+    
   
   export default AboutMe;
