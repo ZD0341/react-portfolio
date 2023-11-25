@@ -4,7 +4,7 @@ import './styles/main.css';
 const Header = () => {
   return (
     <header className="bg-gray-800 text-white p-4">
-      <h1 className="text-2xl font-bold">Your Name</h1>
+      <h1 className="text-2xl font-bold">Zechiel Lozer</h1>
     </header>
   );
 };

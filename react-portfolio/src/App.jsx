@@ -1,16 +1,20 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
+import Layout from './components/Layout';
 import AboutMe from './sections/AboutMe';
 
 const App = () => {
   return (
     <Router>
-      <Header />
-      <Navigation />
       <Routes>
-        <Route path="/" element={<AboutMe />} />
+        <Route
+          path="/"
+          element={
+            <Layout>
+              <AboutMe />
+            </Layout>
+          }
+        />
       </Routes>
     </Router>
   );

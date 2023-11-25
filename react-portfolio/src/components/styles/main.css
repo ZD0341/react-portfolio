@@ -2,6 +2,25 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  background-color: #4a5568;
+  padding: 1rem;
+}
+
 .nav-item {
   list-style: none;
 }
@@ -14,4 +33,11 @@
 
 .nav-item.active a {
   border-bottom: 2px solid white;
+}
+
+footer {
+  background-color: #2d3748;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
