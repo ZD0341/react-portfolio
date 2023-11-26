@@ -11,7 +11,9 @@ const Layout = ({ children }) => {
           <h1 className="text-2xl font-bold">Hi! Welcome to my Portfolio.</h1>
         </header>
         <Navigation />
-        <main className="flex-grow p-4">{children}</main>
+        <main className="flex-grow p-4">
+          <div className="container mx-auto">{children}</div>
+        </main>
         <Footer />
       </div>
     );
