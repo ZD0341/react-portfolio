@@ -6,9 +6,10 @@ const Resume = () => {
         <h2>Resume</h2>
         <p>
           Download my resume:{' '}
-          <a href="/path/to/your/resume.pdf" download>
-            Resume.pdf
-          </a>
+          <a href="https://www.linkedin.com/in/zechiel-lozer-0a49642a1" target="_blank" rel="noopener noreferrer">
+  Zechiel Lozer's LinkedIn
+</a>
+
         </p>
         <h3>Proficiencies</h3>
         <ul>
@@ -16,10 +17,11 @@ const Resume = () => {
           <li>JavaScript</li>
           <li>HTML</li>
           <li>CSS</li>
-          {/* Add more proficiencies as needed */}
         </ul>
       </section>
     );
   };
 
 export default Resume;
+
+

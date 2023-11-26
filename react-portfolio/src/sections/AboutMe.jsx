@@ -6,7 +6,7 @@ const AboutMe = () => {
         <section>
           <h2>About Me</h2>
           <div className="flex items-center space-x-4">
-            <img src={} alt="Avatar" className="w-20 h-20 rounded-full" />
+            
             <div>
               <p>
                 Hi, I'm Zechiel. I am a passionate web developer with experience in creating
